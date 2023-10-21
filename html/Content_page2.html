@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>My Blog Posts</title>
+</head>
+<body>
+    <header>
+        <div class="gradient-header">
+            <h1>Content</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Content_Page1.html">Page1</a></li>
+                    <li><a href="Content_page2.html">Page2</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+            </ul>
+        </aside>
+        <div class="content">
+            <h2>My Blog Posts</h2>
+            <article>
+                <h3>Post 1 Title</h3>
+                <p>Content for Post 1.</p>
+            </article>
+            <article>
+                <h3>Post 2 Title</h3>
+                <p>Content for Post 2.</p>
+            </article>
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="slide" id="slide1">
+            <img src="../image/1.jpg" alt="Image 1" width="100" height="100">
+        </div>
+        <div class="slide" id="slide2">
+            <img src="../image/2.jpg" alt="Image 2" width="100" height="100">
+        </div>
+        <div class="slide" id="slide3">
+            <img src="../image/3.jpg" alt="Image 3" width="100" height="100">
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">Previous</button>
+        <button class="next" onclick="changeSlide(1)">Next</button>
+    </div>
+    <footer>
+        <div class="gradient-footer">
+            <p>&copy; 2023 My Personal Blog</p>
+        </div>
+    </footer>
+</body>
+</html>
